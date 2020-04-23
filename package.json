@@ -40,7 +40,11 @@
   },
   "nyc": {
     "report-dir": "coverage/integration",
-    "reporter": ["text", "json", "lcov"],
+    "reporter": [
+      "text",
+      "json",
+      "lcov"
+    ],
     "all": true,
     "include": [
       "src/**/*.js"
@@ -77,6 +81,7 @@
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
     "cypress": "^4.4.0",
+    "cypress-react-unit-test": "3.0.0-cypress-mount-mode.19",
     "istanbul-lib-coverage": "^3.0.0",
     "istanbul-merge": "^1.1.1",
     "nyc": "^15.0.1",
