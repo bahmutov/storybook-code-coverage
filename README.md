@@ -1,25 +1,7 @@
-# Storybook code coverage
+# Storybook code coverage example
 
-This project shows how to collect code coverage from Storybook (e.g. when using Chromatic for Visual Regresion tests) and how to create a combined report for 3 types of test:
+Forked from this blog post [Combining Storybook, Cypress and Jest Code Coverage](https://dev.to/penx/combining-storybook-cypress-and-jest-code-coverage-4pa5), updated to use [cypress-react-unit-test v2](https://github.com/bahmutov/cypress-react-unit-test/tree/feature/cypress-mount-mode)
 
-- visual regression tests (storybook/chromatic)
-- unit tests (jest)
-- integration tests (cypress)
+See Cypress integration spec [cypress/integration/spec.js](cypress/integration/spec.js) and Cypress component tests [utilities/useToggle.spec.js](utilities/useToggle.spec.js), [src/design-system/GlobalStyles/global-styles-spec.js](src/design-system/GlobalStyles/global-styles-spec.js) and [src/application/App-spec.js](src/application/App-spec.js). When running together they get 100% code coverage
 
-You can view a report for each type of test, or view the coverage of all tests together.
-
-```sh
-yarn
-yarn coverage
-open coverage/merged/lcov-report/index.html
-```
-
-## Combining coverage
-
-You can also [merge reports with codecov](https://docs.codecov.io/docs/merging-reports).
-
-## Known issues
-
-- Integration test report doesn't include full statistics for files with no coverage
-- Can't configure cypress-specific nyc settings outside of generic files (package.json/nycrc)
-- Can't currently use create-react-app 3.4.1 - [facebook/create-react-app#8689](https://github.com/facebook/create-react-app/issues/8689)
+![Coverage](images/coverage.png)
