@@ -2,6 +2,11 @@
 import React from 'react'
 import {mount} from 'cypress-react-unit-test'
 import { useToggle } from "./useToggle";
+import {addOne} from './addOne'
+
+it('adds', () => {
+  expect(addOne(1)).to.equal(2)
+})
 
 it("is off by default", () => {
   const onMessage = "Is On";
