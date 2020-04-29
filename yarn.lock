@@ -1297,10 +1297,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
-"@cypress/browserify-preprocessor@2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@cypress/browserify-preprocessor/-/browserify-preprocessor-2.2.1.tgz#0980c667f774f826a79819f56d50f1b385324080"
-  integrity sha512-97vJ1ulp6sIBJ00FJHAP8JDrJmBXV1UudNNs5r2LmXl5ESiVrPc/5wv5zfJuW2toOSOHa9IbJpwJj/4RbvRYXg==
+"@cypress/browserify-preprocessor@2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@cypress/browserify-preprocessor/-/browserify-preprocessor-2.2.2.tgz#2db0067aea8bd6e98ac29bd331c05bad387608ba"
+  integrity sha512-uESobQlfv68GRKDokhBM5i47ZEwBBWS8zqFYFFBWVjv3KcXHpeReTXMPY/x1DljIO3RYRAxUsPJkh8vxhpRwNA==
   dependencies:
     "@babel/core" "7.4.5"
     "@babel/plugin-proposal-class-properties" "7.3.0"
@@ -1321,23 +1321,12 @@
     through2 "^2.0.0"
     watchify "3.11.1"
 
-"@cypress/code-coverage@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.0.0.tgz#9807eb0a941df5070a9801726a56ab7705c478df"
-  integrity sha512-7a+EG4sSkW43WCON9WZzI49WhaxRzLmtv+kLzZYeWNQYwsnlEkm+aPZ3h57Ht//6v0n2PNEuEu7dQVhn/AhOfQ==
+"@cypress/code-coverage@3.6.0":
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.6.0.tgz#a44caa98fb031089d0ac54156b99818d6b94053e"
+  integrity sha512-XFoYR4HTcMYIJVMrHvcSL30vnLJGP0Sk1eRzEWCiFf5T4KxNLLBxbUHQ1BrBYWzcTiOsL8q8mIQSz1+M77tmRg==
   dependencies:
-    "@cypress/browserify-preprocessor" "2.2.1"
-    debug "4.1.1"
-    execa "4.0.0"
-    istanbul-lib-coverage "3.0.0"
-    nyc "15.0.1"
-
-"@cypress/code-coverage@^3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.5.1.tgz#979e9676bc718224947a464c9bf3950c9d793872"
-  integrity sha512-N+3TrLyyT1vtOtTh7dr8J28qQbaEmTT9W6KukmDgJ6MVDyK8Rf0dGpLa28CdKZUyeShH3J2P5RhzAUZ/JNJgGA==
-  dependencies:
-    "@cypress/browserify-preprocessor" "2.2.1"
+    "@cypress/browserify-preprocessor" "2.2.2"
     debug "4.1.1"
     execa "4.0.0"
     globby "11.0.0"
@@ -5570,22 +5559,22 @@ cyclist@^1.0.1:
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
-cypress-react-unit-test@3.0.0-cypress-mount-mode.19:
-  version "3.0.0-cypress-mount-mode.19"
-  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-3.0.0-cypress-mount-mode.19.tgz#519b6ddcc786f9b3a120288b3103decf35070d32"
-  integrity sha512-NGZyxOHnC04JQFqhlgk1N+o+WsgnVVzkkxYH5zV9pAaQ6k1zwTS6PD+yF8ajlPmc2bdj9QYGs3dy4Gj462RcKw==
+cypress-react-unit-test@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/cypress-react-unit-test/-/cypress-react-unit-test-4.0.1.tgz#945caacff2439ad842714665148ddd98f4e6fb20"
+  integrity sha512-gBIMCnkdQu/yEgSlefql8ZxLaAPNcgzPbH2856f2rb10ObxkgJxyHk3azLJ+VRwwvGyfeD2Jdtuya8KG4AUYyg==
   dependencies:
-    "@cypress/code-coverage" "3.0.0"
+    "@cypress/code-coverage" "3.6.0"
     "@cypress/webpack-preprocessor" "4.1.3"
     babel-plugin-istanbul "6.0.0"
     debug "4.1.1"
-    find-webpack "1.4.0"
+    find-webpack "1.6.1"
     mime-types "2.1.26"
 
-cypress@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-4.4.0.tgz#566ac224e11601634c31e5648e5c15199dde7954"
-  integrity sha512-ZpsV3pVemANGi4Cxu0UIqFv23uHdDJZYlKY+8P/eixujCpI1TQ5RSPBp2grfV3ZvlGYrOXPJY44j9iEh1xoQug==
+cypress@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-4.5.0.tgz#01940d085f6429cec3c87d290daa47bb976a7c7b"
+  integrity sha512-2A4g5FW5d2fHzq8HKUGAMVTnW6P8nlWYQALiCoGN4bqBLvgwhYM/oG9oKc2CS6LnvgHFiKivKzpm9sfk3uU3zQ==
   dependencies:
     "@cypress/listr-verbose-renderer" "0.4.1"
     "@cypress/request" "2.88.5"
@@ -7036,10 +7025,10 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-find-webpack@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/find-webpack/-/find-webpack-1.4.0.tgz#b6f26514d6a404e3ae2920edb1df1781bd7b4409"
-  integrity sha512-rLuPIGJLDydm1EEZnL6XVTjm/GOTlNHu78clEPJum0X2DH9EivuM7qOaILDtKI2eCULqoO2FeQVf0uGglJAU+g==
+find-webpack@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/find-webpack/-/find-webpack-1.6.1.tgz#890e794a6917d1c461ea12f8c660524a693be81a"
+  integrity sha512-+7oA6cnlAfsAJJuNUjxtcoDIjQ3YRSNrlQWAXIfCblPowGVmuoO4mx/e8KWSLORho2SONgLiHSEA1jKomczQrA==
   dependencies:
     debug "4.1.1"
     find-yarn-workspace-root "1.2.1"

@@ -72,7 +72,6 @@
     ]
   },
   "devDependencies": {
-    "@cypress/code-coverage": "^3.5.1",
     "@cypress/instrument-cra": "^1.1.1",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
@@ -80,9 +79,8 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/preset-create-react-app": "^2.1.1",
     "@storybook/react": "^5.3.18",
-    "cypress": "^4.4.0",
-    "cypress-react-unit-test": "3.0.0-cypress-mount-mode.19",
-    "istanbul-lib-coverage": "^3.0.0",
+    "cypress": "^4.5.0",
+    "cypress-react-unit-test": "4.0.1",
     "istanbul-merge": "^1.1.1",
     "nyc": "^15.0.1",
     "react-test-renderer": "^16.13.1"
