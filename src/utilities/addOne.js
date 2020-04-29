@@ -1,1 +1,3 @@
-export const addOne = (x) => x + 1;
+export const addOne = (x) => {
+  return x + 1
+}
